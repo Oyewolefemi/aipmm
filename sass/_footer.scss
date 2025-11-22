@@ -1,0 +1,25 @@
+
+footer {
+    // display: none;
+}
+
+footer a {
+    color: $color-white;
+    text-decoration: none;
+}
+
+.publiftMrec {
+    position: fixed;
+    bottom: 95px; /* top: 0; for Top sticky */
+    left: 36px;
+    text-align: center;
+    -webkit-overflow-scrolling: touch;
+    z-index: 8;
+    -webkit-box-sizing: border-box;
+    border: 2px solid #d9dbda;
+    background: #d9dbda;
+  }
+
+   .publiftMrec .fuse-slot {
+    transform: translate3d(0,0,0);
+  }
